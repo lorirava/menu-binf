@@ -1,0 +1,30 @@
+name: Deploy menu to GCS
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'Menu Borg in Festa 2026.html'
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - id: auth
+        uses: google-github-actions/auth@v2
+        with:
+          project_id: menu-binf
+          workload_identity_provider: projects/901194258696/locations/global/workloadIdentityPools/github-pool/providers/github-provider
+          service_account: github-deploy@menu-binf.iam.gserviceaccount.com
+
+      - uses: google-github-actions/upload-cloud-storage@v2
+        with:
+          path: 'Menu Borg in Festa 2026.html'
+          destination: binf-circolo
+          parent: false

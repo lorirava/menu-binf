@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'Menu Borg in Festa 2026.html'
+      - 'Menu festa con prezzi.pdf'
 
 permissions:
   contents: read
@@ -26,5 +27,11 @@ jobs:
       - uses: google-github-actions/upload-cloud-storage@v2
         with:
           path: 'Menu Borg in Festa 2026.html'
+          destination: binf-circolo
+          parent: false
+
+      - uses: google-github-actions/upload-cloud-storage@v2
+        with:
+          path: 'Menu festa con prezzi.pdf'
           destination: binf-circolo
           parent: false

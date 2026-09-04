@@ -1,0 +1,64 @@
+DONAZIONE: 
+- donazione commenda
+
+BEVANDE:
+- acqua 1/2 nat
+- acqua 1/2 gas
+- acqua 1 nat
+- acqua 1 gas
+- molecola
+- molecola zero
+- bicchiere rosso
+- bicchiere bianco
+- 1/2 rosso
+- 1/2 bianco
+- 1 rosso
+- 1 bianco
+- auriga
+- chiaro della serra
+- birra
+- spritz
+
+ANTIPASTI
+- del borghigiano
+- bruschetta mista
+- bruschetta pomodoro
+- bruschetta crudo
+- caprese
+
+PRIMI
+- tagliatelle con forma
+- tagliatelle senza forma
+- cappelletti con forma
+- cappelletti senza forma
+- cappelletti no glutine con forma
+- cappelletti no glutine senza forma
+- tortelloni con forma
+- tortelloni senza forma
+- polenta
+
+SECONDI
+- castrato
+- arrosticini
+- salsiccia matta e fegatelli
+- salsiccia
+- piadina con salsiccia
+- piadina senza glutine con salsiccia
+- pancetta e pancetta
+- coscia di pollo ai ferri
+
+CONTORNI
+- patate fritte
+- pomodori
+- verdure miste
+- piadina semplice
+- piadina semplice senza glutine
+- patatine ketchup
+- patatine mayo
+- patatine ketchup + maio
+
+DOLCI
+- sorbetto al limone
+- sorbetto al caffè
+- dolce del borghigiano
+- latte brulè
